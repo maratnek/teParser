@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1A984BBE77CD436DA8C063F0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A5AA3CFD1ABB46D3BA89B88E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0858384AA703442DADB9C805 /* CMake Rules */,
+			);
+			dependencies = (
+				A3832354A19B4075B7DDBC18 /* PBXTargetDependency */,
+				1FD23965390A4198B36FB44D /* PBXTargetDependency */,
+				B8FE0077A5A34EFEA39FA733 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7DBD9447488B4DC897271231 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35F2C5D324D4472B9B051073 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B9825B2A59234B639E946093 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B77128DF7FD47DB84CC5177 /* /Users/marat/Projects/C++Projects/TeContents/parser/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 47D9B5604D3A4F5AB7400CAC /* /Users/marat/Projects/C++Projects/TeContents/parser/CMakeLists.txt */; };
+		200318914AA646A7A662ECC8 /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.hxx */ = {isa = PBXBuildFile; fileRef = 73E2025A5D4F4D61A9F1FE92 /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.hxx */; };
+		B0DDC419ADD340ACBF57C6B5 /* /Users/marat/Projects/C++Projects/TeContents/parser/main.cxx */ = {isa = PBXBuildFile; fileRef = DCFBB8ACE56C4A6C9378309E /* /Users/marat/Projects/C++Projects/TeContents/parser/main.cxx */; };
+		D1D5EDD7D86643B98882D082 /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.cxx */ = {isa = PBXBuildFile; fileRef = 4B91F7D899FC436098ABCB5E /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.cxx */; };
+		DF7C9CB5927B4257B957FCF5 /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 512BF18DAE4A48B9BE7F07BE /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		08BC29E22C924F2EB6FCF3FF /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5E3EB717790E4D48B0FA9BD4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D8156760E854469780368768 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E8D46F90BB1F4C1CB7FF398A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		03EF71306D3047149AE3D963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3554269F67044B58240A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DBD9447488B4DC897271231;
+			remoteInfo = ZERO_CHECK;
+		};
+		6A1E4EE1EE68433F9B10CD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3554269F67044B58240A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DBD9447488B4DC897271231;
+			remoteInfo = ZERO_CHECK;
+		};
+		8B053C0A81E8457DA2E56424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3554269F67044B58240A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DBD9447488B4DC897271231;
+			remoteInfo = ZERO_CHECK;
+		};
+		E320AC26DC5E4D5983A77FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3554269F67044B58240A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0FC3C1322848EAA3C609DF;
+			remoteInfo = TeParser;
+		};
+		E38288B38C474DE5AD60595C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3554269F67044B58240A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4DB1FEB75F4FB6BA148467;
+			remoteInfo = teAlgoritms;
+		};
+		F5100C35942043768B5B966F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3554269F67044B58240A03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4DB1FEB75F4FB6BA148467;
+			remoteInfo = teAlgoritms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139B0C6BBBB644519FCAEB88 /* /Users/marat/Projects/C++Projects/TeContents/parser/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1F31DDADE7BE401CB1765BAA /* teAlgoritms */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libteAlgoritms.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D9B5604D3A4F5AB7400CAC /* /Users/marat/Projects/C++Projects/TeContents/parser/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4B91F7D899FC436098ABCB5E /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parser.cxx; path = Algorithm/parser.cxx; sourceTree = SOURCE_ROOT; };
+		512BF18DAE4A48B9BE7F07BE /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Algorithm/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		73E2025A5D4F4D61A9F1FE92 /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.hxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = parser.hxx; path = Algorithm/parser.hxx; sourceTree = SOURCE_ROOT; };
+		D52E92B7F1D14928A39098D9 /* TeParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TeParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFBB8ACE56C4A6C9378309E /* /Users/marat/Projects/C++Projects/TeContents/parser/main.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cxx; path = main.cxx; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		22F2CC7DF6C84D8DB9E981BB /* TeParser */ = {
+			isa = PBXGroup;
+			children = (
+				B60768FB60E64E5993D8EF5F /* Source Files */,
+				47D9B5604D3A4F5AB7400CAC /* /Users/marat/Projects/C++Projects/TeContents/parser/CMakeLists.txt */,
+			);
+			name = TeParser;
+			sourceTree = "<group>";
+		};
+		550120E8D2574859BB07EBA7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				73E2025A5D4F4D61A9F1FE92 /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.hxx */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		591C4F1897504DD8B0B90F66 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B91F7D899FC436098ABCB5E /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6065C10897EA4F72BB798A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52E92B7F1D14928A39098D9 /* TeParser */,
+				1F31DDADE7BE401CB1765BAA /* teAlgoritms */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A609636ED124AB6A143AC26 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B079A8799FCF42B8B9B1F55D /* CMake Rules */,
+				139B0C6BBBB644519FCAEB88 /* /Users/marat/Projects/C++Projects/TeContents/parser/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		93DB065BBC064B2DA26B2635 /* teAlgoritms */ = {
+			isa = PBXGroup;
+			children = (
+				550120E8D2574859BB07EBA7 /* Header Files */,
+				591C4F1897504DD8B0B90F66 /* Source Files */,
+				512BF18DAE4A48B9BE7F07BE /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/CMakeLists.txt */,
+			);
+			name = teAlgoritms;
+			sourceTree = "<group>";
+		};
+		B079A8799FCF42B8B9B1F55D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B60768FB60E64E5993D8EF5F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFBB8ACE56C4A6C9378309E /* /Users/marat/Projects/C++Projects/TeContents/parser/main.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D051DFF055674E5282FEE409 = {
+			isa = PBXGroup;
+			children = (
+				22F2CC7DF6C84D8DB9E981BB /* TeParser */,
+				7A609636ED124AB6A143AC26 /* ALL_BUILD */,
+				93DB065BBC064B2DA26B2635 /* teAlgoritms */,
+				6065C10897EA4F72BB798A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B4DB1FEB75F4FB6BA148467 /* teAlgoritms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79108DCAB704BFC8B0779D1 /* Build configuration list for PBXNativeTarget "teAlgoritms" */;
+			buildPhases = (
+				FBF88A61749D4BF99D023196 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84F072F8647405990B91410 /* PBXTargetDependency */,
+			);
+			name = teAlgoritms;
+			productName = teAlgoritms;
+			productReference = 1F31DDADE7BE401CB1765BAA /* teAlgoritms */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA0FC3C1322848EAA3C609DF /* TeParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526D394D83274F40885601A8 /* Build configuration list for PBXNativeTarget "TeParser" */;
+			buildPhases = (
+				9C781FA5DFEB4EAEA31C0E1B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB92D93D7304646A14D92BF /* PBXTargetDependency */,
+				AAC682D95B504B42A69F20E1 /* PBXTargetDependency */,
+			);
+			name = TeParser;
+			productName = TeParser;
+			productReference = D52E92B7F1D14928A39098D9 /* TeParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3554269F67044B58240A03E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1110;
+			};
+			buildConfigurationList = F6088F55589A4F968C477FBC /* Build configuration list for PBXProject "TeParser" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D8156760E854469780368768 /* Debug */,
+				E8D46F90BB1F4C1CB7FF398A /* Release */,
+				08BC29E22C924F2EB6FCF3FF /* MinSizeRel */,
+				5E3EB717790E4D48B0FA9BD4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D051DFF055674E5282FEE409;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				1A984BBE77CD436DA8C063F0 /* ALL_BUILD */,
+				AA0FC3C1322848EAA3C609DF /* TeParser */,
+				7DBD9447488B4DC897271231 /* ZERO_CHECK */,
+				3B4DB1FEB75F4FB6BA148467 /* teAlgoritms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0858384AA703442DADB9C805 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/marat/Projects/C++Projects/TeContents/parser/build -f /Users/marat/Projects/C++Projects/TeContents/parser/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B73DA796EB94422D87D41373 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B9825B2A59234B639E946093 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/marat/Projects/C++Projects/TeContents/parser/build -f /Users/marat/Projects/C++Projects/TeContents/parser/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C45F892180454C96B07D550F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C781FA5DFEB4EAEA31C0E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DDC419ADD340ACBF57C6B5 /* /Users/marat/Projects/C++Projects/TeContents/parser/main.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF88A61749D4BF99D023196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D5EDD7D86643B98882D082 /* /Users/marat/Projects/C++Projects/TeContents/parser/Algorithm/parser.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD23965390A4198B36FB44D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B4DB1FEB75F4FB6BA148467 /* teAlgoritms */;
+			targetProxy = F5100C35942043768B5B966F /* PBXContainerItemProxy */;
+		};
+		5BB92D93D7304646A14D92BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B4DB1FEB75F4FB6BA148467 /* teAlgoritms */;
+			targetProxy = E38288B38C474DE5AD60595C /* PBXContainerItemProxy */;
+		};
+		A3832354A19B4075B7DDBC18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0FC3C1322848EAA3C609DF /* TeParser */;
+			targetProxy = E320AC26DC5E4D5983A77FDA /* PBXContainerItemProxy */;
+		};
+		AAC682D95B504B42A69F20E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DBD9447488B4DC897271231 /* ZERO_CHECK */;
+			targetProxy = 03EF71306D3047149AE3D963 /* PBXContainerItemProxy */;
+		};
+		B8FE0077A5A34EFEA39FA733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DBD9447488B4DC897271231 /* ZERO_CHECK */;
+			targetProxy = 6A1E4EE1EE68433F9B10CD95 /* PBXContainerItemProxy */;
+		};
+		F84F072F8647405990B91410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DBD9447488B4DC897271231 /* ZERO_CHECK */;
+			targetProxy = 8B053C0A81E8457DA2E56424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0223F3CA8D9348C3B71338B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = teAlgoritms;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		12EA872AA40F4B56942FE90F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/build";
+			};
+			name = MinSizeRel;
+		};
+		16CE90E25C174DB688619007 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40673AC01B244E19BB3F8766 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm/MinSizeRel/libteAlgoritms.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TeParser;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		475543DC9721464C87C71EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/build";
+			};
+			name = Debug;
+		};
+		50D533EF57794CF6979EB3C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5F2AB82667BE46ACBB2ACFDD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm/RelWithDebInfo/libteAlgoritms.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TeParser;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6917E797B9F44B06AB99F57B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		77604B55A9224360B70B66BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		803C3A81B9424574B5550493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm/Release/libteAlgoritms.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TeParser;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8A099E977B4F437193CD4603 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = teAlgoritms;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		93D0BCF6188A49E98508C3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		979F99D7D6A84D19BDA8EA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/build";
+			};
+			name = Release;
+		};
+		9A8ECEC2543F40F791DE66D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C26B3AD40A6E4217B3948217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C442CBCC68A4494CA345634E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = teAlgoritms;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CBC8111FA1AC43AA9616A4A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = teAlgoritms;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D6ACDA53CE5B4352813419A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/marat/Projects/C++Projects/TeContents/parser","/Users/marat/Projects/C++Projects/TeContents/parser/Algorithm");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/marat/Projects/C++Projects/TeContents/parser/build/Algorithm/Debug/libteAlgoritms.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TeParser;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F17D5879B3414A5E977FEEE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FC7C1B432D0C43BC87990F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marat/Projects/C++Projects/TeContents/parser/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35F2C5D324D4472B9B051073 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26B3AD40A6E4217B3948217 /* Debug */,
+				9A8ECEC2543F40F791DE66D0 /* Release */,
+				16CE90E25C174DB688619007 /* MinSizeRel */,
+				77604B55A9224360B70B66BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		526D394D83274F40885601A8 /* Build configuration list for PBXNativeTarget "TeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ACDA53CE5B4352813419A6 /* Debug */,
+				803C3A81B9424574B5550493 /* Release */,
+				40673AC01B244E19BB3F8766 /* MinSizeRel */,
+				5F2AB82667BE46ACBB2ACFDD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5AA3CFD1ABB46D3BA89B88E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7C1B432D0C43BC87990F27 /* Debug */,
+				93D0BCF6188A49E98508C3B7 /* Release */,
+				50D533EF57794CF6979EB3C0 /* MinSizeRel */,
+				F17D5879B3414A5E977FEEE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B79108DCAB704BFC8B0779D1 /* Build configuration list for PBXNativeTarget "teAlgoritms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C442CBCC68A4494CA345634E /* Debug */,
+				0223F3CA8D9348C3B71338B8 /* Release */,
+				CBC8111FA1AC43AA9616A4A7 /* MinSizeRel */,
+				8A099E977B4F437193CD4603 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6088F55589A4F968C477FBC /* Build configuration list for PBXProject "TeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475543DC9721464C87C71EDE /* Debug */,
+				979F99D7D6A84D19BDA8EA4B /* Release */,
+				12EA872AA40F4B56942FE90F /* MinSizeRel */,
+				6917E797B9F44B06AB99F57B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3554269F67044B58240A03E /* Project object */;
+}
